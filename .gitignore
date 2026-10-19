@@ -1,4 +1,15 @@
+# 编译产物
 build/
-*.png
+*.o
+*.obj
+
+# 系统垃圾
 .DS_Store
 __MACOSX/
+
+# 原始压缩包（已解压，不用重复存）
+*.zip
+
+# 渲染输出（可以手动挑几张放 results/）
+output.png
+angle_*.png
